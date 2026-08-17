@@ -7,10 +7,10 @@ import MyServices from './components/MyServices';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
-  const [merchantName, setMerchantName] = useState('小润');
-  const [merchantPhone, setMerchantPhone] = useState('18316652843');
-  const [merchantAddress, setMerchantAddress] = useState('广东省揭阳市普宁市下架山镇中央浦村PPP云仓60号仓库');
-  const [merchantMessage, setMerchantMessage] = useState('您好亲，拒收到付件哦。（亲，请原包装袋、吊牌一起寄回）');
+  const [merchantName, setMerchantName] = useState('');
+  const [merchantPhone, setMerchantPhone] = useState('');
+  const [merchantAddress, setMerchantAddress] = useState('');
+  const [merchantMessage, setMerchantMessage] = useState('');
 
   return (
     <div className="max-w-[430px] mx-auto bg-[#f7f7fb] font-sans text-[#151821] min-h-screen relative pb-24 overflow-hidden">
